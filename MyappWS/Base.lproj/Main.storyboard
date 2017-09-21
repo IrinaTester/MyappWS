@@ -24,11 +24,16 @@
                                     <action selector="mojeFunkce" destination="BYZ-38-t0r" eventType="touchUpInside" id="q0A-CI-ADl"/>
                                 </connections>
                             </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yjN-6y-eXe">
+                                <rect key="frame" x="162.5" y="438.5" width="51" height="31"/>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="yjN-6y-eXe" firstAttribute="top" secondItem="mHK-FL-HAn" secondAttribute="bottom" constant="80" id="9hF-7Y-xah"/>
                             <constraint firstItem="mHK-FL-HAn" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="T2H-Dq-4bk"/>
                             <constraint firstItem="mHK-FL-HAn" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="l0G-wH-OQd"/>
+                            <constraint firstItem="yjN-6y-eXe" firstAttribute="centerX" secondItem="mHK-FL-HAn" secondAttribute="centerX" id="s68-ji-vIv"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
